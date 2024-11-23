@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Box Model</title>
+        <style>
+            #Box{
+                display: flex;
+                justify-content: center;
+                width: 200px;
+                height: 150px;
+                border: 5px solid blue;
+                background-color: blueviolet;
+                color: rgb(0, 0, 0);
+            }
+            #box{
+                display: flex;
+                justify-content: center;
+                width: 200px;
+                height: 150px;
+                border: 5px solid blue;
+                background-color: blueviolet;
+                color: rgb(0, 0, 0);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <center>
+            <div id="Box" >
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis magnam quam odio officia et ipsam quis hic, mollitia quibusdam laborum illum voluptatibus, iusto sequi porro. Nobis blanditiis minus nulla sequi?
+            </div>
+            <div id="box">
+                <img  controls src="Scr.png"></img>
+            </div>
+        </center>
+    </body>
+</html>
